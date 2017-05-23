@@ -49,7 +49,7 @@ Ano    | População Total   | Total Homens  | Total Mulheres
     - Retorne o resultado para o ano de 2017 considerando a formula de projeção Geométrica de crescimento.
       populacional:
       
-       ![crescimento_pop.png](https://bitbucket.org/repo/xKnKae/images/2897701646-crescimento_pop.png)
+       ![crescimento_pop.png](https://github.com/pereira-cit/dojo-java-rest/blob/master/2897701646-crescimento_pop.png)
       
      As estimativas de crescimento da população são realizadas pelo método geométrico. Em termos
        técnicos, para se obter a taxa de crescimento (r), subtrai-se 1 da raiz enésima do quociente entre a

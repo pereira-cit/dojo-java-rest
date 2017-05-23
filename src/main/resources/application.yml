@@ -1,0 +1,42 @@
+
+# ===================================================================
+# Spring Boot configuration.
+#
+# This configuration will be overriden by the Spring profile you use,
+# for example application-dev.yml if you use the "dev" profile.
+# ===================================================================
+
+# ===================================================================
+# Standard Spring Boot properties.
+# Full reference is available at:
+# http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+# ===================================================================
+
+spring:
+    profiles:
+        active: dev
+    devtools:
+        restart:
+            enabled: true
+        livereload:
+            enabled: true
+    jackson:
+        serialization.indent_output: true
+    datasource:
+        url: jdbc:mysql://localhost:3306/dasa_hands
+        username: dasa
+        password: dasa123456
+        testWhileIdle: true
+        validationQuery: SELECT 1
+    jpa:
+        show-sql: true
+        hibernate:
+          ddl-auto: update
+          naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+        properties:
+          hibernate:
+            dialect: org.hibernate.dialect.MySQL5Dialect
+
+
+server:
+    port: 8080

@@ -1,0 +1,19 @@
+version: '2'
+
+services:
+   db:
+     image: mysql:5.7
+     volumes:
+       - db_data:/var/lib/mysql
+     ports:
+       - "3306:3306"
+     expose:
+       - "3306"
+     restart: always
+     environment:
+       MYSQL_ROOT_PASSWORD: dasa
+       MYSQL_DATABASE: dasa_hands
+       MYSQL_USER: dasa
+       MYSQL_PASSWORD: dasa123456
+volumes:
+    db_data:

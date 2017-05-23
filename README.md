@@ -1,14 +1,23 @@
+# Requisitos de Software #
+
+* Java 8 
+
+* Docker (https://docs.docker.com/engine/installation/)
+
+* Docker compose (https://docs.docker.com/compose/install/)
+
+* IDE (Eclipse / Intellij)
+
 # Iniciar a Infra #
 
 * Criar uma nova branch com o nome do candidato e data do Dojo.
 * Em um terminal como root (sudo su), dentro da pasta do repositório do projeto, rodar o comando:
 
 ```
-#!docker
 docker-compose up
 ```
 
-#Desafio
+### Desafio
 
 O desafio consiste em criar uma API Rest com dados da participação em eventos de prevenção do Câncer de Mama e Câncer de Próstata.
 

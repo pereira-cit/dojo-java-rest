@@ -1,6 +1,7 @@
 package com.dasa.utils;
 
-import com.dasa.domain.DadoPopulacional;
+import com.ciandt.domain.DadoPopulacional;
+import com.ciandt.utils.DatasetReader;
 import org.junit.Before;
 import org.junit.Test;
 

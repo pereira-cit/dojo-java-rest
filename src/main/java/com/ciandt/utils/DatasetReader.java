@@ -1,6 +1,6 @@
-package com.dasa.utils;
+package com.ciandt.utils;
 
-import com.dasa.domain.DadoPopulacional;
+import com.ciandt.domain.DadoPopulacional;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.dasa.domain;
+package com.ciandt.domain;
 
 import lombok.Data;
 

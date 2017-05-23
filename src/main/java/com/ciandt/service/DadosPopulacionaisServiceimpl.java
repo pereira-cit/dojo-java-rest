@@ -1,7 +1,7 @@
-package com.dasa.service;
+package com.ciandt.service;
 
-import com.dasa.domain.DadoPopulacional;
-import com.dasa.repository.DadosPopulacionaisRepository;
+import com.ciandt.repository.DadosPopulacionaisRepository;
+import com.ciandt.domain.DadoPopulacional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
